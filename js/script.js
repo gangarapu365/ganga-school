@@ -59,3 +59,22 @@ themeButton.addEventListener("click", () => {
     }
 
 });
+const menuToggle=document.getElementById("menuToggle");
+
+const nav=document.querySelector("nav");
+
+menuToggle.addEventListener("click",()=>{
+
+    nav.classList.toggle("active");
+
+    if(nav.classList.contains("active")){
+
+        menuToggle.innerHTML="✖";
+
+    }else{
+
+        menuToggle.innerHTML="☰";
+
+    }
+
+});
