@@ -1,0 +1,210 @@
+/* ==========================================
+   TABLETS (1024px)
+========================================== */
+
+@media(max-width:1024px){
+
+    .feature-box{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .stats-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    nav ul{
+        gap:15px;
+    }
+
+    .hero-content h2{
+        font-size:42px;
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE (768px)
+========================================== */
+
+@media(max-width:768px){
+
+    header .container{
+
+        flex-direction:column;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        margin-top:20px;
+
+        text-align:center;
+
+    }
+
+    nav ul li{
+
+        margin:10px 0;
+
+    }
+
+    .hero{
+
+        height:70vh;
+
+        padding:20px;
+
+    }
+
+    .hero-content h2{
+
+        font-size:32px;
+
+    }
+
+    .hero-content p{
+
+        font-size:18px;
+
+    }
+
+    .feature-box{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .stats-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .about-content{
+
+        width:95%;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE (480px)
+========================================== */
+
+@media(max-width:480px){
+
+    .logo h1{
+
+        font-size:24px;
+
+    }
+
+    .hero-content h2{
+
+        font-size:26px;
+
+    }
+
+    .btn{
+
+        padding:12px 24px;
+
+    }
+
+}
+/* ==========================================
+   PRINCIPAL RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .principal-container{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .principal-image img{
+
+        width:220px;
+
+        height:220px;
+
+    }
+
+    .principal-content h2{
+
+        font-size:32px;
+
+    }
+
+}
+/* ==========================================
+   GALLERY RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .gallery-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+/* ==========================================
+   TESTIMONIAL RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .testimonial-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+/* ==========================================
+        ABOUT PAGE RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .story-container{
+
+        flex-direction:column;
+
+    }
+
+    .mission-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .page-banner h1{
+
+        font-size:38px;
+
+    }
+
+}
+/* ==========================================
+        VALUES GRID RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .values-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
