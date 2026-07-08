@@ -173,3 +173,110 @@
     }
 
 }
+/* ===========================
+   MOBILE NAVBAR
+=========================== */
+
+@media(max-width:768px){
+
+header .container{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.logo{
+
+    flex:1;
+
+}
+
+.logo h1{
+
+    font-size:24px;
+
+}
+
+.menu-toggle{
+
+    display:block;
+
+    font-size:32px;
+
+    color:white;
+
+    cursor:pointer;
+
+    z-index:2000;
+
+}
+
+nav{
+
+    position:fixed;
+
+    top:0;
+
+    right:-280px;
+
+    width:260px;
+
+    height:100vh;
+
+    background:#0d6efd;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-start;
+
+    padding-top:80px;
+
+    transition:.4s;
+
+}
+
+nav.active{
+
+    right:0;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    flex-direction:column;
+
+    width:100%;
+
+}
+
+nav ul li{
+
+    width:100%;
+
+    margin:0;
+
+    border-top:1px solid rgba(255,255,255,.2);
+
+}
+
+nav ul li a{
+
+    display:block;
+
+    padding:18px 30px;
+
+}
+
+#themeToggle{
+
+    margin:20px;
+
+}
+
+}
